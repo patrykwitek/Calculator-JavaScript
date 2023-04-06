@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(to top, #00031F, black);
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container input{
+    width:3em;
+    height:3em;
+    font-size: 2em;
+    border: 1px white solid;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: 0.3s;
+    margin: 0.1em;
+    margin-bottom: 0.15em;
+    border-radius: 0.1em;
+}
+
+.container input:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #04040A;
+}
+
+.display{
+    height: 6em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px white solid;
+    color: rgba(255, 255, 255, 0.9);
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: right;
+    margin: 0.2em;
+    margin-bottom: 0.4em;
+}
+
+.display .previous-result{
+    color:rgba(255, 255, 255, 0.75);
+    font-size: 1.5em;
+}
+
+.display .current-result{
+    color:rgba(255, 255, 255);
+    font-size: 2.5em;
+}
+
+#equals{
+    background: rgb(92, 148, 201);
+}
+
+#equals:hover{
+    color:white;
+    background-color: rgba(92, 148, 201, 0.6);
+}
+
+#ac{
+    width: 6.34em;
+}

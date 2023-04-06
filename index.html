@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="display">
+                <div data-previous-result class="previous-result"></div>
+                <div data-current-result class="current-result"></div>
+            </div>
+            <form>
+                <div>
+                    <input type="button" value="AC" id="ac" data-all-clear>
+                    <input type="button" value="DEL" data-delete>
+                    <input type="button" value="÷" data-operation>
+                </div>
+                <div>
+                    <input type="button" value="7" data-digit>
+                    <input type="button" value="8" data-digit>
+                    <input type="button" value="9" data-digit>
+                    <input type="button" value="*" data-operation>
+                </div>
+                <div>
+                    <input type="button" value="4" data-digit>
+                    <input type="button" value="5" data-digit>
+                    <input type="button" value="6" data-digit>
+                    <input type="button" value="-" data-operation>
+                </div>
+                <div>
+                    <input type="button" value="1" data-digit>
+                    <input type="button" value="2" data-digit>
+                    <input type="button" value="3" data-digit>
+                    <input type="button" value="+" data-operation>
+                </div>
+                <div>
+                    <input type="button" value="00" data-digit>
+                    <input type="button" value="0" data-digit>
+                    <input type="button" value="." data-digit>
+                    <input type="button" value="=" id="equals" data-equals>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
